@@ -1,0 +1,22 @@
+.sb-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search-bar {
+    width: 50%;
+    padding: 6px;
+    align-self: center;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.lupa {
+    position: absolute;
+    right: 290px;
+}

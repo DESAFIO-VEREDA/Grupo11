@@ -2,6 +2,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react'
 import Axios from 'axios';
 import Header from './components/Header';
+import SearchBar from './components/SearchBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className='container'>
       <Header />
+      <SearchBar />
     </div>
      );
 }
